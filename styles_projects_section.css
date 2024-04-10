@@ -14,6 +14,38 @@
     gap: 25px;
 }
 
+#projects_images > div {
+    position: relative;
+}
+
+#projects_images > div > div {
+    height: 100%;
+    width: 100%;
+    border-radius: 8px;
+    position: absolute;
+    background: #000000b0;
+    opacity: 0;
+    transition: opacity 0.2s ease;
+    color: white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+#projects_images > div > div > p {
+    font-size: 18px;
+}
+
+#projects_images > div > div > * {
+    margin: 10px 20px 0px 20px;
+}
+
+#projects_images > div > div:hover {
+    opacity: 1;
+}
+
+
 #projects_images > div > img
 {
     height: 100%;
@@ -41,4 +73,20 @@
 #projects_images > :nth-child(4)
 {
     grid-column: 11/21;
+}
+
+.project_tools_wrapper
+{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 7px;
+    justify-content: center;
+}
+
+.project_tool
+{
+    color: black;
+    background-color: white;
+    padding: 5px 14px;
+    border-radius: 153px;
 }
