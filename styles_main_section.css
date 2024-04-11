@@ -62,8 +62,22 @@
     }
     #part-left
     {
-        margin: 20px 0px;
+        margin: 20px 0px 0px 0px;
+        border-top-left-radius: 8px;
+        border-bottom-left-radius: 0px;
+        border-top-right-radius: 8px;
+        border-bottom-right-radius: 0px;
+        border-right: 1px solid #e3e3e3;
+        border-bottom: 0px;
+        padding: 20px 0px;
     }
+    #part-right {
+        border-top-left-radius: 0px;
+        border-bottom-left-radius: 8px;
+        border-top-right-radius: 0px;
+        border-bottom-right-radius: 8px;
+    }
+    
 }
 
 
