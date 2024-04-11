@@ -12,6 +12,7 @@
     padding: 25px;
 }
 
+
 #part-left
 {
     border-top: 1px solid #e3e3e3;
@@ -38,6 +39,33 @@
 {
     font-size: 23px;
 }
+
+@media screen and (max-width: 733px) {
+    #part-right > p
+    {
+        font-size: 21px;
+    }
+    .part
+    {
+        padding: 15px;
+    }
+}
+
+@media screen and (max-width: 555px) {
+    #main_section_container
+    {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto auto;
+        font-size: 24px;
+        margin-top: 80px;
+    }
+    #part-left
+    {
+        margin: 20px 0px;
+    }
+}
+
 
 #part_download_cv
 {

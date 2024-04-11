@@ -12,6 +12,11 @@
     width: 100px;
 }
 
+#tools_wrapper > div:hover
+{
+    filter: grayscale(100);
+}
+
 @media screen and (max-width: 880px) {
     #tools_wrapper > div
     {
