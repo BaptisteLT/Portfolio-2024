@@ -14,3 +14,14 @@
     padding: 25px;
     border-radius: 8px;
 }
+@media screen and (max-width: 1016px) {
+    .experience
+    {
+        flex-grow: 1;
+    }
+}
+@media screen and (max-width: 732px) {
+    .experience_wrapper{
+        flex-direction: column;
+    }
+}

@@ -12,6 +12,28 @@
     width: 100px;
 }
 
+@media screen and (max-width: 880px) {
+    #tools_wrapper > div
+    {
+        height: 80px;
+        width: 80px;
+    }
+}
+@media screen and (max-width: 600px) {
+    #tools_wrapper > div
+    {
+        height: 70px;
+        width: 70px;
+    }
+}
+@media screen and (max-width: 400px) {
+    #tools_wrapper > div
+    {
+        height: 60px;
+        width: 60px;
+    }
+}
+
 #tools_wrapper > div > img
 {
     height: 100px;

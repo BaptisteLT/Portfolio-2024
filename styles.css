@@ -46,6 +46,11 @@ hr{
 section{
     margin: 70px 0px;
 }
+@media screen and (max-width: 700px) {
+    section{
+        margin: 35px 0px;
+    }
+}
 
 .section_title
 {
@@ -127,4 +132,20 @@ header a::before {
 {
     height: 90%;
     width: 90%;
+}
+
+footer
+{
+    height: 70px;
+    background-color: #e3e3e3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    border-top: 1px solid #d5d5d5;
+    text-align: center;
+}
+footer > p
+{
+    font-size: 16px;
 }

@@ -29,7 +29,7 @@
 
 #part-right
 {
-    background-color: #F1AE3C;
+    background-color: /*#010101*/#F1AE3C;
     color: white;
     border-top-right-radius: 8px;
     border-bottom-right-radius: 8px;
