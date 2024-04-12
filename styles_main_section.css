@@ -30,7 +30,9 @@
 
 #part-right
 {
-    background-color: /*#010101*/#F1AE3C;
+    background-color: #101010;
+    /*background-color: #F1AE3C;*/
+    /*background-color: #3c7ff1;*/
     color: white;
     border-top-right-radius: 8px;
     border-bottom-right-radius: 8px;
