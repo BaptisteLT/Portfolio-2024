@@ -187,14 +187,15 @@ footer a
 {
     color: inherit;
     text-decoration: none;
-    font-size: 21px;
+    font-size: 16px;
     color: rgb(236, 236, 236);
 }
 footer span
 {
-    font-size: 22px;
+    font-size: 18px;
     text-decoration: underline;
     margin-bottom: 4px;
+    color: white;
 }
 #footer_nav
 {
