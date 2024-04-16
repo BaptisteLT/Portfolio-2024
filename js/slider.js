@@ -12,7 +12,7 @@ const slide = [
     "simon.PNG",
     "tindogs.PNG",
     "tir.png",
-    "tout.png"
+    "tout.PNG"
 ];
 let numero = 0;
 
